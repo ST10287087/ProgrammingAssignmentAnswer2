@@ -10,12 +10,14 @@ import org.junit.Test;
 import programmingassignmentanswer2.ActivePlayer;
 import programmingassignmentanswer2.CharacterMoves;
 import programmingassignmentanswer2.Harbinger;
-
+/*
+@author ST10287087
+*/
  
 public class TestFight {
     
     @Test
-    public void testCharacterMovesInitialization() {
+    public void testCharacterMovesInitialization() { //testes the characters attacks and moves
         CharacterMoves character = new CharacterMoves("Character", 100, 10);
         assertEquals("Character", character.getName());
         assertEquals(100, character.getHealth());
@@ -29,11 +31,11 @@ public class TestFight {
         CharacterMoves harbinger = new Harbinger("Harbinger", 50);
         
         player.attack(harbinger);
-        assertTrue(harbinger.getHealth() < 50); // Harbinger should have taken damage
+        assertTrue(harbinger.getHealth() < 50); // checks if harbinger has taken damage
     }
     
     @Test
-    public void testHarbingerAttack() {
+    public void testHarbingerAttack() { //checks if harbinger atacks the player
         CharacterMoves player = new ActivePlayer("Player", 100, 10);
         CharacterMoves harbinger = new Harbinger("Harbinger", 50);
         
