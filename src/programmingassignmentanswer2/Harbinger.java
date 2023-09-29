@@ -8,9 +8,9 @@ import java.util.Random;
 
 /**
  *
- * @author User
+ * @author ST10287087 
  */
-public class Harbinger extends CharacterMoves implements Attackker {
+public class Harbinger extends CharacterMoves implements Attackker {//this class is a child class which determine the deatils of the boss (Harbinger)
    public  Harbinger (String name, int health) {
         super(name, health, 5); // The boss has 5 damage
     }
