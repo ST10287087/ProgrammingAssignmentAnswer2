@@ -6,14 +6,19 @@ package programmingassignmentanswer2;
 
 /**
  *
- * @author User
+ * @author ST10287087
  */
 public class ProgrammingAssignmentAnswer2 {
+/*
+REFERENCES
+https://youtu.be/eboNNUADeIc?si=nx-iMxg_z7cwyuET
+https://youtu.be/64wpmqiKbS4?si=3xYar0WMI_FUPe43
+https://youtu.be/Zs342ePFvRI?si=nnEjdBCJH0qlvpIB
+https://youtu.be/lhf8gaUx4yU?si=MLkgVvCK6pSHYf0m
+https://youtu.be/g3aOf3OPEKo?si=nVwc-9PzZk5EWXUX
+    */
 
-
-    /**
-     * @param args the command line arguments
-     */
+    //starts the game and does all the methods
     public static void main(String[] args) {
         HarbingerBossFight game = new HarbingerBossFight();
         game.start();
