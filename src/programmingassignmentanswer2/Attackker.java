@@ -6,7 +6,7 @@ package programmingassignmentanswer2;
 
 /**
  *
- * @author User
+ * @author ST10287087
  */
 interface Attackker {
     public void attack(CharacterMoves target);
