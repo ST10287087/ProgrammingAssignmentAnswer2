@@ -8,9 +8,10 @@ import java.util.Random;
 
 /**
  *
- * @author User
+ * @author ST10287087
+ 
  */
-public class CharacterMoves {
+public class CharacterMoves {//this class gets the players information such as if they alive or not this is the parent class
     private String name;
     private int health;
     private int damage;
